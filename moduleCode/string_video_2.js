@@ -19,3 +19,20 @@ if (subject.toLowerCase() === book.toLowerCase()) {
 } else {
   console.log("does not match");
 }
+
+const drink = " water";
+const liquid = "water";
+
+if (drink === liquid) {
+  console.log("match the two items");
+} else {
+  console.log("does not match the two items");
+}
+
+// to remove white space use the trim() functin
+
+if (drink.trim() === liquid.trim()) {
+  console.log("2nd match the two items");
+} else {
+  console.log(" 2nd does not match the two items");
+}
